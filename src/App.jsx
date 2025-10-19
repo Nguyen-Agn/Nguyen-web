@@ -5,15 +5,16 @@ import Chroma from './components/Chroma';
 import Footer from './components/footer';
 import ScrollReveal from './components/ScrollTail';
 import ImgTrail from './components/List';
-import Name from './components/Name'
+import BG from './components/Bg-lq'
 
 const App = () => {
 
   return (
-    <div className='h-fit w-screen bg-gray-950 from-gray-600 to-gray-950 gap-96 flex flex-col items-center justify-evenly py-[15%] overflow-hidden'>
+    <div className='h-fit w-screen bg-gray-950 from-gray-600 to-gray-950 gap-96 flex flex-col items-center justify-evenly overflow-hidden'>
       <NavBar />
     
-      <Name/>
+      
+      <BG/>
 
       <Hero />
 
